@@ -20,7 +20,7 @@ actionable visibility. Common problems include:
 
 - KPIs that exist in spreadsheets but never reach decision-makers
 - Reports that show numbers without context or comparison
-- No role separation — everyone sees everything, or no one sees enough
+- No role separation (everyone sees everything, or no one sees enough)
 - Static exports that go stale the moment they're produced
 
 This dashboard addresses those problems through a structured **two-page, 
@@ -32,12 +32,12 @@ data across multiple dimensions simultaneously.
 
 # Dashboard Structure
 
-## 👩‍🏫 View 1 — Operational Staff View
+## 👩‍🏫 Operational Staff View
 
 Designed for front-line staff and team leads who need visibility into 
 day-to-day performance metrics relevant to their role.
 
-### Section 1 — Performance Overview
+### Section 1 *Performance Overview*
 
 
 
@@ -60,7 +60,7 @@ donut, and a behavior incidents heatmap by time period.
 
 ---
 
-### Section 2 — Attendance & Availability
+### Section 2 *Attendance & Availability*
 
 
 
@@ -78,7 +78,7 @@ Key indicators include:
 
 ---
 
-### Section 3 — Behavior & Incidents
+### Section 3 *Behavior & Incidents*
 
 
 
@@ -98,7 +98,7 @@ Key indicators include:
 
 ---
 
-### Section 4 — At-Risk Flagging
+### Section 4 *At-Risk Flagging*
 
 
 
@@ -112,12 +112,12 @@ drill-ready detail table.
 
 ---
 
-## 🏢 View 2 — Administrator View
+## 🏢 Administrator View
 
 Designed for administrators and managers who need cross-team visibility, 
 staff performance data, and financial oversight.
 
-### Section 5 — Staff Performance
+### Section 5 *Staff Performance*
 
 
 
@@ -139,14 +139,14 @@ tracking with configurable targets.
 
 ---
 
-### Section 6 — Operations
+### Section 6 *Operations*
 
 Tracks operational health metrics across segments including enrollment, 
 capacity, and suspension rates.
 
 ---
 
-### Section 7 — Budget Utilization
+### Section 7 *Budget Utilization*
 
 
 
@@ -155,7 +155,7 @@ capacity, and suspension rates.
 
 
 Evaluates spend against allocation across departments with gradient 
-conditional formatting — departments under budget display in blue, 
+conditional formatting. Departments under budget display in blue, 
 over-budget departments display in red.
 
 Key indicators include:
@@ -202,11 +202,11 @@ staff, and budget KPIs.
 
 5-table star schema with the following structure:
 
-- **students_fact** — core fact table (12,156 rows)
-- **performance** — subject-level exam and completion data (36,468 rows)
-- **behavior** — incident and referral records (12,156 rows)
-- **teachers** — staff performance metrics (1,000 rows)
-- **budget** — department-level financial data (6 rows)
+- **students_fact** | core fact table (12,156 rows)
+- **performance** | subject-level exam and completion data (36,468 rows)
+- **behavior** | incident and referral records (12,156 rows)
+- **teachers** | staff performance metrics (1,000 rows)
+- **budget** | department-level financial data (6 rows)
 
 Data engineered in R from Kaggle source datasets. Full dataset and 
 engineering scripts will be added to this repo in a future update.
@@ -223,7 +223,7 @@ engineering scripts will be added to this repo in a future update.
 | **Filter Dimensions** | 7 |
 | **Data Model** | 5-table star schema |
 | **Role-Based Access** | Two-role RLS (Staff + Administrator) via USERPRINCIPALNAME() |
-| **Settings Page** | Dedicated hidden page — thresholds, targets, user profile, active school year |
+| **Settings Page** | Dedicated hidden page / thresholds, targets, user profile, active school year |
 | **Canvas Size** | 1440 × 900 |
 
 ---
@@ -245,8 +245,8 @@ This dashboard enables organizations to:
 
 - Power BI Desktop
 - DAX
-- R (tidyverse) — data engineering
-- Kaggle datasets — source data
+- R (tidyverse) | data engineering
+- Kaggle datasets | source data
 
 ---
 
