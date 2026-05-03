@@ -1,0 +1,101 @@
+{
+  "project_id": "PROJ_POWER_BI_KPI_DASHBOARD",
+  "group_id": "PROJECT_GROUP_BUSINESS_INTELLIGENCE",
+
+  "title": "Power BI KPI Dashboard",
+  "short_summary": "Role-based multi-page Power BI dashboard with RLS, a DAX measure library, and interactive filtering",
+  "summary": "A multi-page Power BI dashboard demonstrating role-based KPI visualization with Row-Level Security, a complete DAX measure library, and interactive bookmark navigation. Structured around a Teacher/Staff view and an Admin view, with metrics covering grade distribution, subject performance, behavior incidents, and assignment completion. Serves as the portfolio foundation for SteadMark Metrics, a K-12 analytics product.",
+
+  "role_scope": "base|education",
+
+  "roles": [
+    "Data Analyst",
+    "BI Engineer",
+    "Business Intelligence Developer",
+    "Analytics Engineer"
+  ],
+
+  "skills": [
+    "Power BI",
+    "DAX",
+    "Row-Level Security",
+    "Data Modeling",
+    "KPI Development",
+    "Dashboard Design",
+    "Business Intelligence"
+  ],
+
+  "repo_link": "https://github.com/visualkirby/Power-BI-KPI-Dashboard",
+
+  "domains": [
+    "business_intelligence",
+    "education_analytics",
+    "kpi_reporting",
+    "role_based_dashboards"
+  ],
+
+  "tags": [
+    "power_bi",
+    "dax",
+    "rls",
+    "kpi_dashboard",
+    "education_analytics",
+    "role_based_views"
+  ],
+
+  "datasets": [],
+
+  "components": [
+
+    {
+      "component_id": "COMP_POWERBI_STAFF_VIEW",
+      "name": "Operational Staff View",
+      "component_type": "data_visualization",
+      "deliverable_type": "dashboard_page",
+
+      "objective": "Build a teacher and front-line staff dashboard page with performance overview, grade distribution, subject breakdowns, behavior heatmap, and assignment completion metrics.",
+      "business_value": "Gives teachers and staff real-time visibility into classroom performance to support timely intervention and instructional adjustment.",
+
+      "component_link": "https://github.com/visualkirby/Power-BI-KPI-Dashboard",
+
+      "files": [],
+
+      "tools": [
+        { "tool_label": "Power BI", "tool_keyword": "power_bi" },
+        { "tool_label": "DAX", "tool_keyword": "dax" }
+      ],
+
+      "skills": [
+        { "skill_label": "Dashboard Design", "skill_keyword": "dashboard_design", "weight": 0.4 },
+        { "skill_label": "KPI Development", "skill_keyword": "kpi_development", "weight": 0.4 },
+        { "skill_label": "Data Visualization", "skill_keyword": "data_visualization", "weight": 0.2 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_POWERBI_ADMIN_VIEW",
+      "name": "Admin View",
+      "component_type": "data_visualization",
+      "deliverable_type": "dashboard_page",
+
+      "objective": "Build an administrator dashboard page with aggregated performance comparisons and leadership-level KPIs, secured by Row-Level Security.",
+      "business_value": "Enables school administrators to monitor institutional performance trends and identify areas requiring resource allocation or policy adjustment.",
+
+      "component_link": "https://github.com/visualkirby/Power-BI-KPI-Dashboard",
+
+      "files": [],
+
+      "tools": [
+        { "tool_label": "Power BI", "tool_keyword": "power_bi" },
+        { "tool_label": "DAX", "tool_keyword": "dax" }
+      ],
+
+      "skills": [
+        { "skill_label": "Row-Level Security", "skill_keyword": "row_level_security", "weight": 0.4 },
+        { "skill_label": "Dashboard Design", "skill_keyword": "dashboard_design", "weight": 0.4 },
+        { "skill_label": "Data Modeling", "skill_keyword": "data_modeling", "weight": 0.2 }
+      ]
+    }
+
+  ]
+}
