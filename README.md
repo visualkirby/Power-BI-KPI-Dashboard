@@ -254,9 +254,8 @@ This dashboard enables organizations to:
 
 **Sawandi Kirby**
 
-Data Analytics | Dashboard Development | KPI Reporting  
-Focused on building decision-ready reports that turn operational data 
-into clear business visibility.
+Data Analytics & Business Intelligence
+Benchline Analytics - Data intelligence for organizations that mean business.
 
 - GitHub: https://github.com/visualkirby
 - LinkedIn: https://linkedin.com/in/sawandi-kirby
