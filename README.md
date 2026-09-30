@@ -82,7 +82,7 @@ Key indicators include:
 
 
 
-![Behavior](./screenshots/Steadmark_Heatmap.png)
+![Behavior](./screenshots/Teacher_Behavior.png)
 
 
 
